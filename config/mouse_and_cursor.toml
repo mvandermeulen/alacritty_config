@@ -1,0 +1,15 @@
+[cursor]
+style = "Block"
+unfocused_hollow = true
+
+[mouse]
+# faux_scrollback_lines = 1
+hide_when_typing = true
+
+[[mouse.bindings]]
+action = "PasteSelection"
+mouse = "Middle"
+
+[selection]
+save_to_clipboard = false
+semantic_escape_chars = ",│`|:\"' ()[]{}<>"

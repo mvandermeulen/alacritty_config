@@ -1,0 +1,13 @@
+[window]
+decorations = "none"
+dynamic_padding = false
+opacity = 1.0
+startup_mode = "Windowed"
+
+# [window.dimensions]
+# columns = 10
+# lines = 65
+
+[window.padding]
+x = 0
+y = 0

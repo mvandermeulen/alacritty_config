@@ -1,0 +1,9 @@
+live_config_reload = true
+
+[env]
+TERM = "xterm-256color"
+
+[shell]
+args = ["--login"]
+program = "/bin/zsh"
+

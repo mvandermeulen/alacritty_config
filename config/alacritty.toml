@@ -1,0 +1,1 @@
+import = ["global.toml", "window.toml", "scrolling.toml", "font.toml", "mouse_and_cursor.toml", "~/.config/alacritty/themes/themes/catppuccin.toml", "bindings.toml"]

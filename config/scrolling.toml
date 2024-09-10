@@ -1,0 +1,5 @@
+[scrolling]
+# auto_scroll = true
+# faux_multiplier = 3
+history = 2000
+multiplier = 3
