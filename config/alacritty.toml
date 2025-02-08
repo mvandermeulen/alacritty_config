@@ -1,1 +1,5 @@
-import = ["global.toml", "window.toml", "scrolling.toml", "font.toml", "mouse_and_cursor.toml", "~/.config/alacritty/themes/themes/catppuccin.toml", "bindings.toml"]
+[general]
+live_config_reload = true
+import = ["/Users/vandem/.cfg/alacritty/config/global.toml", "/Users/vandem/.cfg/alacritty/config/window.toml",
+  "/Users/vandem/.cfg/alacritty/config/scrolling.toml", "/Users/vandem/.cfg/alacritty/config/font.toml",
+  "/Users/vandem/.cfg/alacritty/config/mouse_and_cursor.toml", "/Users/vandem/.cfg/alacritty/themes/catppuccin.toml", "/Users/vandem/.cfg/alacritty/config/bindings.toml"]

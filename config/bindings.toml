@@ -151,10 +151,20 @@ chars = "`g"
 key = "G"
 mods = "Command"
 
-[[keyboard.bindings]]
-chars = "`kg"
-key = "G"
-mods = "Command|Shift"
+# [[keyboard.bindings]]
+# chars = "`kg"
+# key = "G"
+# mods = "Super|Shift"
+
+# [[keyboard.bindings]]
+# chars = "`kg"
+# key = "g"
+# mods = "Command|Shift"
+
+# [[keyboard.bindings]]
+# chars = "`kg"
+# key = "G"
+# mods = "Command"
 
 [[keyboard.bindings]]
 chars = "`l"
@@ -165,6 +175,11 @@ mods = "Command"
 chars = "`L"
 key = "L"
 mods = "Command|Shift"
+
+# [[keyboard.bindings]]
+# chars = "`L"
+# key = "L"
+# mods = "Super|Shift"
 
 [[keyboard.bindings]]
 chars = "`k"
@@ -366,9 +381,14 @@ chars = "`["
 key = "LBracket"
 mods = "Command"
 
+# [[keyboard.bindings]]
+# chars = "\u0002p"
+# key = "LBracket"
+# mods = "Command|Shift"
+
 [[keyboard.bindings]]
-chars = "\u0002p"
-key = "LBracket"
+chars = "`p"
+key = "{"
 mods = "Command|Shift"
 
 [[keyboard.bindings]]
@@ -376,9 +396,14 @@ chars = "`]"
 key = "RBracket"
 mods = "Command"
 
+# [[keyboard.bindings]]
+# chars = "\u0002&"
+# key = "RBracket"
+# mods = "Command|Shift"
+
 [[keyboard.bindings]]
-chars = "\u0002&"
-key = "RBracket"
+chars = "`n"
+key = "}"
 mods = "Command|Shift"
 
 [[keyboard.bindings]]
@@ -481,20 +506,72 @@ chars = "\u001B[24;2~"
 key = "F12"
 mods = "Shift"
 
-# [[keyboard.bindings]]
+[[keyboard.bindings]]
+chars = "\u001B[13;2u"
 # chars = "\u001B[27~"
-# key = "Return"
-# mods = "Shift"
+key = "Return"
+mods = "Shift"
 
 [[keyboard.bindings]]
-chars = "\u001B[30~"
+chars = "\u001B[32;2u"
+# chars = "\u001B[30~"
 key = "Space"
+mods = "Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[27;2u"
+key = "Escape"
 mods = "Shift"
 
 [[keyboard.bindings]]
 chars = "\u001B[Z"
 key = "Tab"
 mods = "Shift"
+
+[[keyboard.bindings]]
+chars = "\u001b[105;5u"
+key = "I"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001b[109;5u"
+key = "M"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001b[73;5u"
+key = "I"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001b[77;5u"
+key = "M"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001b[91;5u"
+key = "LBracket"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001b[93;5u"
+key = "RBracket"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001b[123;5u"
+key = "{"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001b[125;5u"
+key = "}"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001b[64;5u"
+key = "@"
+mods = "Control|Shift"
 
 [[keyboard.bindings]]
 chars = "\u001B[1;5B"
@@ -586,6 +663,66 @@ chars = "\u001B[24;5~"
 key = "F12"
 mods = "Control"
 
+[[keyboard.bindings]]
+chars = "\u001B[92;5u"
+key = "Backslash"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[47;5u"
+key = "Slash"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[45;5u"
+key = "Minus"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[59;5u"
+key = "Semicolon"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[95;5u"
+key = "_"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[58;5u"
+key = "Colon"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[39;5u"
+key = "'"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[34;5u"
+key = "\""
+mods = "Control|Shift"
+
+# [[keyboard.bindings]]
+# chars = ""
+# key = "Minus"
+# mods = "Control"
+
+# [[keyboard.bindings]]
+# chars = ""
+# key = "Semicolon"
+# mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[46;5u"
+key = "Period"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[27;5u"
+key = "Escape"
+mods = "Control"
+
 # # chars = "\x1b[74;5u"
 # # chars = "^[[13;5u"
 # # chars = "\x1b\x5b\x32\x35\x7e"
@@ -605,13 +742,22 @@ key = "Space"
 mods = "Control"
 
 [[keyboard.bindings]]
-chars = "\u001B[1;5I"
-# chars = "gt"
+chars = "\u001B[32;6u"
+key = "Space"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+# chars = "\u001b[9;5u"
+chars = "\u001b[27;5;9~"
+# chars = "\u001B[1;5I"
 key = "Tab"
 mods = "Control"
 
 [[keyboard.bindings]]
-chars = "\u001B[1;6I"
+# chars = "\u001b[1;5Z"
+# Above doe not work.
+chars = "\u001b[27;6;9~"
+# chars = "\u001B[1;6I"
 # chars = "\u0002p"
 key = "Tab"
 mods = "Control|Shift"
@@ -623,7 +769,28 @@ key = "Comma"
 mods = "Control"
 
 [[keyboard.bindings]]
-chars = "\u001B\u007F"
+chars = "\u001b[127;2u"
+key = "Back"
+mods = "Shift"
+
+[[keyboard.bindings]]
+chars = "\u001b[127;5u"
+key = "Back"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001b[127;6u"
+key = "Back"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0015"
+key = "Back"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001b[127;3u"
+# chars = "\u001B\u007F"
 key = "Back"
 mods = "Alt"
 
