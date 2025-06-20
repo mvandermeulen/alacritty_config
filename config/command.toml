@@ -1,0 +1,289 @@
+
+#######################################################################
+# ⌘ Command Key {{{
+#######################################################################
+
+# ⌘ Pure Bindings (No Modifiers) {{{
+
+# NUMBER KEYS {{{
+###########################
+[[keyboard.bindings]]
+# chars = "`1"
+chars = "\u001B[27;5;49~"
+key = "Key1"
+mods = "Command"
+
+[[keyboard.bindings]]
+# chars = "`2"
+chars = "\u001B[27;5;50~"
+key = "Key2"
+mods = "Command"
+
+[[keyboard.bindings]]
+# chars = "`3"
+chars = "\u001B[27;5;51~"
+key = "Key3"
+mods = "Command"
+
+[[keyboard.bindings]]
+# chars = "`4"
+chars = "\u001B[27;5;52~"
+key = "Key4"
+mods = "Command"
+
+[[keyboard.bindings]]
+# chars = "`5"
+chars = "\u001B[27;5;53~"
+key = "Key5"
+mods = "Command"
+
+[[keyboard.bindings]]
+# chars = "`6"
+chars = "\u001B[27;5;54~"
+key = "Key6"
+mods = "Command"
+
+[[keyboard.bindings]]
+# chars = "`7"
+chars = "\u001B[27;5;55~"
+key = "Key7"
+mods = "Command"
+
+[[keyboard.bindings]]
+# chars = "`8"
+chars = "\u001B[27;5;56~"
+key = "Key8"
+mods = "Command"
+
+[[keyboard.bindings]]
+# chars = "`9"
+chars = "\u001B[27;5;57~"
+key = "Key9"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001B[27;5;48~"
+key = "Key0"
+mods = "Command"
+
+
+
+# }}}
+
+# ARROW KEYS {{{
+###########################
+[[keyboard.bindings]]
+chars = "\u001B[1;5B"
+key = "Down"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001B[1;5A"
+key = "Up"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001B[1;5C"
+key = "Right"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001B[1;5D"
+key = "Left"
+mods = "Command"
+
+# }}}
+
+# REGULAR KEYS {{{
+###########################
+[[keyboard.bindings]]
+chars = "`="
+key = "B"
+mods = "Command"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "`d"
+key = "D"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "`g"
+key = "G"
+mods = "Command"
+
+# [[keyboard.bindings]]
+# chars = "`kg"
+# key = "G"
+# mods = "Command"
+
+[[keyboard.bindings]]
+chars = "`l"
+key = "L"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "`k"
+key = "M"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "`n"
+key = "N"
+mods = "Command"
+
+[[keyboard.bindings]]
+action = "Quit"
+key = "Q"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "`s"
+key = "S"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "`c"
+key = "T"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "`C"
+key = "T"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "`W"
+key = "W"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "`-"
+key = "X"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "`X"
+key = "X"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = ",tc"
+key = "Y"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "`z"
+key = "Z"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "`["
+key = "LBracket"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "`]"
+key = "RBracket"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "`-"
+key = "Minus"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "`;"
+key = "Semicolon"
+mods = "Command"
+# }}}
+
+# FN KEYS {{{
+###########################
+[[keyboard.bindings]]
+chars = "\u001B[1;3P"
+key = "F1"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001B[1;3Q"
+key = "F2"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001B[1;3R"
+key = "F3"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001B[1;3S"
+key = "F4"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001B[15;3~"
+key = "F5"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001B[17;3~"
+key = "F6"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001B[18;3~"
+key = "F7"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001B[19;3~"
+key = "F8"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001B[20;3~"
+key = "F9"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001B[21;3~"
+key = "F10"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001B[23;3~"
+key = "F11"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001B[24;3~"
+key = "F12"
+mods = "Command"
+# }}}
+
+# OTHER KEYS {{{
+###########################
+[[keyboard.bindings]]
+chars = "\u001b[127;9u"
+key = "Back"
+mods = "Command"
+
+
+
+# }}}
+
+# }}}
+
+# }}}
+#######################################################################
+
+

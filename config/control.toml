@@ -1,0 +1,257 @@
+
+#######################################################################
+# ⌃ Control Key {{{
+#######################################################################
+
+# ⌃ Pure Bindings (No Modifiers) {{{
+################################################
+
+# NUMBER KEYS {{{
+
+# Number Row: Backtick, Minus, Equals, Delete {{{
+########################
+[[keyboard.bindings]]
+chars = "\u001B[96;5u"
+key = "`"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[45;5u"
+key = "Minus"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[61;5u"
+key = "Equals"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001b[127;5u"
+key = "Back"
+mods = "Control"
+
+
+# }}}
+
+# }}}
+
+# ARROW KEYS {{{
+###########################
+
+[[keyboard.bindings]]
+chars = "\u001B[1;5B"
+key = "Down"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[1;5A"
+key = "Up"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[1;5C"
+key = "Right"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[1;5D"
+key = "Left"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[6;5~"
+key = "PageDown"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[5;5~"
+key = "PageUp"
+mods = "Control"
+
+# }}}
+
+# REGULAR KEYS {{{
+###########################
+
+# A-Z {{{
+########################
+
+[[keyboard.bindings]]
+chars = "\u001b[105;5u"
+key = "I"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001b[109;5u"
+key = "M"
+mods = "Control"
+
+
+# }}}
+
+# Bottom Row: Comma, Period, Slash {{{
+########################
+[[keyboard.bindings]]
+chars = "\u001b[44;5u"
+# chars = "\u001B[33~"
+key = "Comma"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[46;5u"
+key = "Period"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[47;5u"
+key = "Slash"
+mods = "Control"
+
+# }}}
+
+# Home Row: Semicolon, Quotes, Return {{{
+########################
+[[keyboard.bindings]]
+chars = "\u001B[59;5u"
+key = "Semicolon"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[39;5u"
+key = "'"
+mods = "Control"
+
+# # chars = "\x1b[74;5u"
+# # chars = "^[[13;5u"
+# # chars = "\x1b\x5b\x32\x35\x7e"
+# This key code is confirmed here: https://powerusers.codidact.com/posts/291531
+[[keyboard.bindings]]
+chars = "\u001b[13;5u"
+key = "Return"
+mods = "Control"
+
+# [[keyboard.bindings]]
+# chars = "\x1b\x5b\x32\x35\x7e"
+# key = "Return"
+# mods = "Control"
+
+
+# }}}
+
+# Home Row + 1: Brackets, Backslash {{{
+########################
+[[keyboard.bindings]]
+chars = "\u001b[91;5u"
+key = "LBracket"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001b[93;5u"
+key = "RBracket"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[92;5u"
+key = "Backslash"
+mods = "Control"
+
+# }}}
+
+# }}}
+
+# FN KEYS {{{
+###########################
+
+[[keyboard.bindings]]
+chars = "\u001B[1;5P"
+key = "F1"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[1;5Q"
+key = "F2"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[1;5R"
+key = "F3"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[1;5S"
+key = "F4"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[15;5~"
+key = "F5"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[17;5~"
+key = "F6"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[18;5~"
+key = "F7"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[19;5~"
+key = "F8"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[20;5~"
+key = "F9"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[21;5~"
+key = "F10"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[23;5~"
+key = "F11"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[24;5~"
+key = "F12"
+mods = "Control"
+
+
+
+# }}}
+
+# OTHER KEYS {{{
+###########################
+[[keyboard.bindings]]
+chars = "\u001b[27;5u"
+key = "Escape"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u0000"
+key = "Space"
+mods = "Control"
+
+[[keyboard.bindings]]
+# chars = "\u001b[9;5u"
+chars = "\u001b[27;5;9~"
+# chars = "\u001B[1;5I"
+key = "Tab"
+mods = "Control"
+
+
+# }}}
+
+# }}}
+
+# }}}
+#######################################################################
+
+
+

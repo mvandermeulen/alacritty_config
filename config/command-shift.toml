@@ -1,0 +1,91 @@
+
+#######################################################################
+# ⌘ Command Key {{{
+#######################################################################
+
+# ⌘ + ⇧ Shift Key Modifier {{{
+
+###########################
+# NUMBER KEYS {{{
+###########################
+
+
+
+
+# }}}
+
+###########################
+# ARROW KEYS {{{
+###########################
+
+
+
+
+# }}}
+
+###########################
+# REGULAR KEYS {{{
+###########################
+[[keyboard.bindings]]
+action = "ToggleFullscreen"
+key = "F"
+mods = "Command|Shift"
+
+# [[keyboard.bindings]]
+# chars = "`kg"
+# key = "g"
+# mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "`L"
+key = "L"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "N"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "`S"
+key = "S"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "`n"
+key = "}"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "`p"
+key = "{"
+mods = "Command|Shift"
+
+# [[keyboard.bindings]]
+# chars = "\u0002p"
+# key = "LBracket"
+# mods = "Command|Shift"
+
+# [[keyboard.bindings]]
+# chars = "\u0002&"
+# key = "RBracket"
+# mods = "Command|Shift"
+
+
+
+# }}}
+
+# OTHER KEYS {{{
+###########################
+
+
+
+# }}}
+
+# }}}
+
+
+# }}}
+#######################################################################
+
+

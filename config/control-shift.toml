@@ -1,0 +1,307 @@
+
+#######################################################################
+# ⌃ Control Key {{{
+#######################################################################
+
+# ⌃ + ⇧ Shift Key Modifier {{{
+################################################
+
+# NUMBER KEYS {{{
+
+[[keyboard.bindings]]
+chars = "\u001b[33;5u"
+key = "!"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001b[64;5u"
+key = "@"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001b[35;5u"
+key = "#"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001b[36;5u"
+key = "$"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001b[37;5u"
+key = "%"
+mods = "Control|Shift"
+
+# [[keyboard.bindings]]
+# chars = "\u001b[64;5u"
+# key = "^"
+# mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001b[38;5u"
+key = "&"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001b[42;5u"
+key = "*"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001b[40;5u"
+key = "("
+mods = "Control|Shift"
+
+# Number Row: Backtick, Minus, Equals, Delete {{{
+[[keyboard.bindings]]
+chars = "\u001B[95;5u"
+key = "_"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[43;5u"
+key = "+"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001b[127;6u"
+key = "Back"
+mods = "Control|Shift"
+
+# }}}
+
+# }}}
+
+# ARROW KEYS {{{
+###########################
+
+# }}}
+
+# REGULAR KEYS {{{
+###########################
+
+# A-Z {{{
+########################
+[[keyboard.bindings]]
+chars = "\u001B[65;5u"
+key = "A"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[66;5u"
+key = "B"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[68;5u"
+key = "D"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[69;5u"
+key = "E"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[70;5u"
+key = "F"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[71;5u"
+key = "G"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[72;5u"
+key = "H"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001b[73;5u"
+key = "I"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001b[74;5u"
+key = "J"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001b[75;5u"
+key = "K"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001b[76;5u"
+key = "L"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001b[77;5u"
+key = "M"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[78;5u"
+key = "N"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[79;5u"
+key = "O"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[80;5u"
+key = "P"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[81;5u"
+key = "Q"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[82;5u"
+key = "R"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[83;5u"
+key = "S"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[84;5u"
+key = "T"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[85;5u"
+key = "U"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[86;5u"
+key = "V"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[87;5u"
+key = "W"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[88;5u"
+key = "X"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[89;5u"
+key = "Y"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[90;5u"
+key = "Z"
+mods = "Control|Shift"
+
+# }}}
+
+# Bottom Row: Comma, Period, Slash {{{
+########################
+[[keyboard.bindings]]
+chars = "\u001B[60;5u"
+key = "Comma"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[62;5u"
+key = "Period"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[63;5u"
+key = "Slash"
+mods = "Control|Shift"
+
+
+# }}}
+
+# Home Row: Semicolon, Quotes, Return {{{
+[[keyboard.bindings]]
+chars = "\u001B[58;5u"
+key = "Colon"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[34;5u"
+key = "\""
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001b[13;6u"
+key = "Return"
+mods = "Control|Shift"
+
+# }}}
+
+# Home Row + 1: Brackets, Backslash {{{
+[[keyboard.bindings]]
+chars = "\u001b[123;5u"
+key = "{"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001b[125;5u"
+key = "}"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001b[124;5u"
+key = "|"
+mods = "Control|Shift"
+
+# }}}
+
+# }}}
+
+# FN KEYS {{{
+###########################
+
+
+# }}}
+
+# OTHER KEYS {{{
+###########################
+[[keyboard.bindings]]
+chars = "\u001b[27;6u"
+key = "Escape"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+# chars = "\u001b[1;5Z"
+# Above doe not work.
+chars = "\u001b[27;6;9~"
+# chars = "\u001B[1;6I"
+# chars = "\u0002p"
+key = "Tab"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[32;6u"
+key = "Space"
+mods = "Control|Shift"
+
+# }}}
+
+# }}}
+
+
+# }}}
+#######################################################################
+
+
+
