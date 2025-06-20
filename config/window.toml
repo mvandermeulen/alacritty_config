@@ -3,6 +3,7 @@ decorations = "none"
 dynamic_padding = false
 opacity = 1.0
 startup_mode = "Windowed"
+option_as_alt = "Both"
 
 # [window.dimensions]
 # columns = 10
