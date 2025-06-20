@@ -1,0 +1,5 @@
+.is_root_directory
+.venv/
+venv/
+examples/
+fresh_examples/
