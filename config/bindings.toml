@@ -11,17 +11,5 @@
 # mods = "Super|Shift"
 
 
-import = [
-  "/Users/vandem/resources/configs/alacritty_config/config/no_modifiers.toml",
-  "/Users/vandem/resources/configs/alacritty_config/config/shift.toml",
-  "/Users/vandem/resources/configs/alacritty_config/config/option.toml",
-  "/Users/vandem/resources/configs/alacritty_config/config/option-shift.toml",
-  "/Users/vandem/resources/configs/alacritty_config/config/control.toml",
-  "/Users/vandem/resources/configs/alacritty_config/config/control-shift.toml",
-  "/Users/vandem/resources/configs/alacritty_config/config/control-option.toml",
-  "/Users/vandem/resources/configs/alacritty_config/config/control-option-shift.toml",
-  "/Users/vandem/resources/configs/alacritty_config/config/command.toml",
-  "/Users/vandem/resources/configs/alacritty_config/config/command-shift.toml",
-  "/Users/vandem/resources/configs/alacritty_config/config/command-option.toml",
-  "/Users/vandem/resources/configs/alacritty_config/config/command-option-shift.toml"
-]
+# import = [
+# ]

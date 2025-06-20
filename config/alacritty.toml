@@ -1,5 +1,23 @@
 [general]
 live_config_reload = true
-import = ["/Users/vandem/.cfg/alacritty/config/global.toml", "/Users/vandem/.cfg/alacritty/config/window.toml",
-  "/Users/vandem/.cfg/alacritty/config/scrolling.toml", "/Users/vandem/.cfg/alacritty/config/font.toml",
-  "/Users/vandem/.cfg/alacritty/config/mouse_and_cursor.toml", "/Users/vandem/.cfg/alacritty/themes/catppuccin.toml", "/Users/vandem/.cfg/alacritty/config/bindings.toml"]
+import = [
+  "/Users/vandem/resources/configs/alacritty_config/config/global.toml",
+  "/Users/vandem/resources/configs/alacritty_config/config/window.toml",
+  "/Users/vandem/resources/configs/alacritty_config/config/scrolling.toml",
+  "/Users/vandem/resources/configs/alacritty_config/config/font.toml",
+  "/Users/vandem/resources/configs/alacritty_config/config/mouse_and_cursor.toml",
+  "/Users/vandem/resources/configs/alacritty_config/themes/catppuccin.toml",
+  "/Users/vandem/resources/configs/alacritty_config/config/bindings.toml",
+  "/Users/vandem/resources/configs/alacritty_config/config/no_modifiers.toml",
+  "/Users/vandem/resources/configs/alacritty_config/config/shift.toml",
+  "/Users/vandem/resources/configs/alacritty_config/config/option.toml",
+  "/Users/vandem/resources/configs/alacritty_config/config/option-shift.toml",
+  "/Users/vandem/resources/configs/alacritty_config/config/control.toml",
+  "/Users/vandem/resources/configs/alacritty_config/config/control-shift.toml",
+  "/Users/vandem/resources/configs/alacritty_config/config/control-option.toml",
+  "/Users/vandem/resources/configs/alacritty_config/config/control-option-shift.toml",
+  "/Users/vandem/resources/configs/alacritty_config/config/command.toml",
+  "/Users/vandem/resources/configs/alacritty_config/config/command-shift.toml",
+  "/Users/vandem/resources/configs/alacritty_config/config/command-option.toml",
+  "/Users/vandem/resources/configs/alacritty_config/config/command-option-shift.toml"
+]
