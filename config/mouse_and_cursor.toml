@@ -6,6 +6,7 @@ unfocused_hollow = true
 # faux_scrollback_lines = 1
 hide_when_typing = true
 
+
 [[mouse.bindings]]
 action = "PasteSelection"
 mouse = "Middle"
