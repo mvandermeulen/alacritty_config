@@ -232,8 +232,10 @@ mods = "Control"
 
 # }}}
 
-# OTHER KEYS {{{
-###########################
+
+
+# Other Keys: Escape, Tab, Space {{{
+
 [[keyboard.bindings]]
 chars = "\u001b[27;5u"
 key = "Escape"
