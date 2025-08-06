@@ -15,19 +15,6 @@
 
 # NUMBER KEYS {{{
 
-
-# Number Row: Backtick, Minus, Equals, Backspace {{{
-########################
-[[keyboard.bindings]]
-chars = "\u001b[127;6u"
-key = "Back"
-mods = "Control|Shift"
-
-
-# }}}
-
-
-
 [[keyboard.bindings]]
 chars = "\u001b[33;5u"
 key = "!"
@@ -73,7 +60,8 @@ chars = "\u001b[40;5u"
 key = "("
 mods = "Control|Shift"
 
-# Number Row: Backtick, Minus, Equals, Delete {{{
+# Number Row: Backtick, Minus, Equals, Backspace {{{
+
 [[keyboard.bindings]]
 chars = "\u001B[95;5u"
 key = "_"
@@ -294,8 +282,9 @@ mods = "Control|Shift"
 
 # }}}
 
-# OTHER KEYS {{{
-###########################
+
+# Other Keys: Escape, Tab, Space {{{
+
 [[keyboard.bindings]]
 chars = "\u001b[27;6u"
 key = "Escape"
