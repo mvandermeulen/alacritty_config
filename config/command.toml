@@ -16,11 +16,16 @@
 
 # Number Row: Backtick, Minus, Equals, Backspace {{{
 ########################
+
+[[keyboard.bindings]]
+chars = "`-"
+key = "Minus"
+mods = "Command"
+
 [[keyboard.bindings]]
 chars = "\u001b[127;9u"
 key = "Back"
 mods = "Command"
-
 
 # }}}
 
@@ -114,6 +119,9 @@ mods = "Command"
 
 # REGULAR KEYS {{{
 ###########################
+
+# A-Z {{{
+
 [[keyboard.bindings]]
 chars = "`="
 key = "B"
@@ -204,6 +212,33 @@ chars = "`z"
 key = "Z"
 mods = "Command"
 
+
+# }}}
+
+# Bottom Row: Comma, Period, Slash {{{
+
+
+# }}}
+
+# Home Row: Semicolon, Quotes, Return {{{
+
+[[keyboard.bindings]]
+chars = "`;"
+key = "Semicolon"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001B[13;9u"
+key = "Return"
+mods = "Command"
+
+# }}}
+
+
+# }}}
+
+# Home Row + 1: Brackets, Backslash {{{
+
 [[keyboard.bindings]]
 chars = "`["
 key = "LBracket"
@@ -215,15 +250,13 @@ key = "RBracket"
 mods = "Command"
 
 [[keyboard.bindings]]
-chars = "`-"
-key = "Minus"
+chars = "\u001B[92;9u"
+key = "Backslash"
 mods = "Command"
 
-[[keyboard.bindings]]
-chars = "`;"
-key = "Semicolon"
-mods = "Command"
+
 # }}}
+
 
 # FN KEYS {{{
 ###########################
@@ -288,16 +321,11 @@ key = "F12"
 mods = "Command"
 # }}}
 
-# OTHER KEYS {{{
-###########################
+# Other Keys: Escape, Tab, Space {{{
+
 [[keyboard.bindings]]
 chars = "\u001b[27;9u"
 key = "Escape"
-mods = "Command"
-
-[[keyboard.bindings]]
-chars = "\u001B[13;9u"
-key = "Return"
 mods = "Command"
 
 [[keyboard.bindings]]
