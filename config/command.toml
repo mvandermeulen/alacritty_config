@@ -1,3 +1,9 @@
+# vim: set filetype=tmux fdm=marker foldenable foldlevel=4 nospell:
+# File:          config/command.toml
+# Author:        Mark van der Meulen <mark@vdm.id.au>
+# Description:   Command key bindings for Alacritty
+# Last Modified: 2025-08-06
+
 
 #######################################################################
 # ⌘ Command Key {{{
@@ -7,6 +13,18 @@
 
 # NUMBER KEYS {{{
 ###########################
+
+# Number Row: Backtick, Minus, Equals, Backspace {{{
+########################
+[[keyboard.bindings]]
+chars = "\u001b[127;9u"
+key = "Back"
+mods = "Command"
+
+
+# }}}
+
+
 [[keyboard.bindings]]
 # chars = "`1"
 chars = "\u001B[27;5;49~"
@@ -273,11 +291,19 @@ mods = "Command"
 # OTHER KEYS {{{
 ###########################
 [[keyboard.bindings]]
-chars = "\u001b[127;9u"
-key = "Back"
+chars = "\u001b[27;9u"
+key = "Escape"
 mods = "Command"
 
+[[keyboard.bindings]]
+chars = "\u001B[13;9u"
+key = "Return"
+mods = "Command"
 
+[[keyboard.bindings]]
+chars = "\u001B[32;9u"
+key = "Space"
+mods = "Command"
 
 # }}}
 

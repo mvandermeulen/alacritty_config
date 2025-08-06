@@ -1,3 +1,9 @@
+# vim: set filetype=tmux fdm=marker foldenable foldlevel=4 nospell:
+# File:          config/control-option.toml
+# Author:        Mark van der Meulen <mark@vdm.id.au>
+# Description:   Control+Option key bindings for Alacritty
+# Last Modified: 2025-08-06
+
 
 #######################################################################
 # ⌃ Control Key {{{
@@ -8,6 +14,16 @@
 ###########################
 # NUMBER KEYS {{{
 ###########################
+
+# Number Row: Backtick, Minus, Equals, Backspace {{{
+########################
+[[keyboard.bindings]]
+chars = "\u001b[127;7u"
+key = "Back"
+mods = "Control|Alt"
+
+
+# }}}
 
 
 
@@ -40,6 +56,11 @@
 ###########################
 # OTHER KEYS {{{
 ###########################
+
+[[keyboard.bindings]]
+chars = "\u001b[27;7u"
+key = "Escape"
+mods = "Control|Alt"
 
 
 

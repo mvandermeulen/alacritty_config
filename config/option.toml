@@ -1,3 +1,9 @@
+# vim: set filetype=tmux fdm=marker foldenable foldlevel=4 nospell:
+# File:          config/option.toml
+# Author:        Mark van der Meulen <mark@vdm.id.au>
+# Description:   Option key bindings for Alacritty
+# Last Modified: 2025-08-06
+
 
 #######################################################################
 # ⌥ Option Key {{{
@@ -57,7 +63,7 @@ chars = "\u001B0"
 key = "Key0"
 mods = "Alt"
 
-# Number Row: Backtick, Minus, Equals, Delete {{{
+# Number Row: Backtick, Minus, Equals, Backspace {{{
 ########################
 [[keyboard.bindings]]
 chars = "\u001B`"

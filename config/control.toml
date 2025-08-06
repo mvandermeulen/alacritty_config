@@ -1,3 +1,9 @@
+# vim: set filetype=tmux fdm=marker foldenable foldlevel=4 nospell:
+# File:          config/control.toml
+# Author:        Mark van der Meulen <mark@vdm.id.au>
+# Description:   Control key bindings for Alacritty
+# Last Modified: 2025-08-06
+
 
 #######################################################################
 # ⌃ Control Key {{{
@@ -8,7 +14,7 @@
 
 # NUMBER KEYS {{{
 
-# Number Row: Backtick, Minus, Equals, Delete {{{
+# Number Row: Backtick, Minus, Equals, Backspace {{{
 ########################
 [[keyboard.bindings]]
 chars = "\u001B[96;5u"

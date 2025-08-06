@@ -1,7 +1,24 @@
+# vim: set filetype=tmux fdm=marker foldenable foldlevel=4 nospell:
+# File:          config/shift.toml
+# Author:        Mark van der Meulen <mark@vdm.id.au>
+# Description:   Shift key bindings for Alacritty
+# Last Modified: 2025-08-06
+
 
 #######################################################################
 # ⇧ Shift Key {{{
 #######################################################################
+
+# Number Row: Backtick, Minus, Equals, Backspace {{{
+########################
+[[keyboard.bindings]]
+chars = "\u001b[127;2u"
+key = "Back"
+mods = "Shift"
+
+
+# }}}
+
 
 # ARROW KEYS {{{
 ###########################
@@ -103,11 +120,6 @@ mods = "Shift"
 
 # OTHER KEYS {{{
 ###########################
-[[keyboard.bindings]]
-chars = "\u001b[127;2u"
-key = "Back"
-mods = "Shift"
-
 # This key code is confirmed here: https://powerusers.codidact.com/posts/291531
 [[keyboard.bindings]]
 chars = "\u001B[13;2u"

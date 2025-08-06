@@ -1,3 +1,9 @@
+# vim: set filetype=tmux fdm=marker foldenable foldlevel=4 nospell:
+# File:          config/command-option-shift.toml
+# Author:        Mark van der Meulen <mark@vdm.id.au>
+# Description:   Command+Option+Shift key bindings for Alacritty
+# Last Modified: 2025-08-06
+
 
 #######################################################################
 # ⌘ Command Key {{{
@@ -10,6 +16,17 @@
 ###########################
 # NUMBER KEYS {{{
 ###########################
+
+# Number Row: Backtick, Minus, Equals, Backspace {{{
+########################
+[[keyboard.bindings]]
+chars = "\u001b[127;14u"
+key = "Back"
+mods = "Command|Shift|Alt"
+
+
+# }}}
+
 
 
 

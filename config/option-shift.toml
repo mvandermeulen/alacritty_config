@@ -1,3 +1,9 @@
+# vim: set filetype=tmux fdm=marker foldenable foldlevel=4 nospell:
+# File:          config/option-shift.toml
+# Author:        Mark van der Meulen <mark@vdm.id.au>
+# Description:   Option+Shift key bindings for Alacritty
+# Last Modified: 2025-08-06
+
 
 #######################################################################
 # ⌥ Option Key {{{
@@ -7,6 +13,17 @@
 ################################################
 
 # NUMBER KEYS {{{
+
+# Number Row: Backtick, Minus, Equals, Backspace {{{
+########################
+[[keyboard.bindings]]
+chars = "\u001b[127;4u"
+key = "Back"
+mods = "Alt|Shift"
+
+
+# }}}
+
 
 [[keyboard.bindings]]
 chars = "\u001B!"
@@ -276,7 +293,18 @@ mods = "Alt|Shift"
 
 
 # OTHER KEYS {{{
+# Escape, Space, 
 
+[[keyboard.bindings]]
+chars = "\u001b[27;4u"
+key = "Escape"
+mods = "Alt|Shift"
+
+
+[[keyboard.bindings]]
+chars = "\u001B[32;4u"
+key = "Space"
+mods = "Alt|Shift"
 
 # }}}
 
