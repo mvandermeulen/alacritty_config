@@ -47,11 +47,48 @@ mods = "Command|Shift|Alt"
 ###########################
 
 
+# A-Z {{{
 
 
 # }}}
 
-###########################
+# Bottom Row: Comma, Period, Slash {{{
+
+
+# }}}
+
+# Home Row: Semicolon, Quotes, Return {{{
+
+[[keyboard.bindings]]
+chars = "\u001B[13;14u"
+key = "Return"
+mods = "Command|Shift|Alt"
+
+# }}}
+
+# Home Row + 1: Brackets, Backslash {{{
+
+[[keyboard.bindings]]
+chars = "\u001b[123;14u"
+key = "{"
+mods = "Command|Shift|Alt"
+
+[[keyboard.bindings]]
+chars = "\u001b[125;14u"
+key = "}"
+mods = "Command|Shift|Alt"
+
+[[keyboard.bindings]]
+chars = "\u001b[124;14u"
+key = "|"
+mods = "Command|Shift|Alt"
+
+
+# }}}
+
+
+# }}}
+
 # FN KEYS {{{
 ###########################
 
@@ -60,10 +97,18 @@ mods = "Command|Shift|Alt"
 
 # }}}
 
-###########################
-# OTHER KEYS {{{
-###########################
 
+# Other Keys: Escape, Tab, Space {{{
+
+[[keyboard.bindings]]
+chars = "\u001b[27;14u"
+key = "Escape"
+mods = "Command|Shift|Alt"
+
+[[keyboard.bindings]]
+chars = "\u001B[32;14u"
+key = "Space"
+mods = "Command|Shift|Alt"
 
 # }}}
 
