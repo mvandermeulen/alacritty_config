@@ -28,12 +28,8 @@ mods = "Command|Alt"
 # }}}
 
 
-
-
-
 # }}}
 
-###########################
 # ARROW KEYS {{{
 ###########################
 
@@ -47,11 +43,47 @@ mods = "Command|Alt"
 ###########################
 
 
+# A-Z {{{
 
 
 # }}}
 
-###########################
+# Bottom Row: Comma, Period, Slash {{{
+
+
+# }}}
+
+# Home Row: Semicolon, Quotes, Return {{{
+
+[[keyboard.bindings]]
+chars = "\u001B[13;11u"
+key = "Return"
+mods = "Command"
+
+# }}}
+
+# Home Row + 1: Brackets, Backslash {{{
+
+[[keyboard.bindings]]
+chars = "\u001b[91;11u"
+key = "LBracket"
+mods = "Command|Alt"
+
+[[keyboard.bindings]]
+chars = "\u001b[93;11u"
+key = "RBracket"
+mods = "Command|Alt"
+
+[[keyboard.bindings]]
+chars = "\u001B[92;11u"
+key = "Backslash"
+mods = "Command|Alt"
+
+# }}}
+
+
+# }}}
+
 # FN KEYS {{{
 ###########################
 
@@ -60,11 +92,18 @@ mods = "Command|Alt"
 
 # }}}
 
-###########################
-# OTHER KEYS {{{
-###########################
 
+# Other Keys: Escape, Tab, Space {{{
 
+[[keyboard.bindings]]
+chars = "\u001b[27;11u"
+key = "Escape"
+mods = "Command|Alt"
+
+[[keyboard.bindings]]
+chars = "\u001B[32;11u"
+key = "Space"
+mods = "Command|Alt"
 
 # }}}
 
