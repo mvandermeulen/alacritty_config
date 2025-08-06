@@ -25,10 +25,6 @@ mods = "Command|Shift"
 
 # }}}
 
-
-
-
-
 # }}}
 
 ###########################
@@ -43,6 +39,10 @@ mods = "Command|Shift"
 ###########################
 # REGULAR KEYS {{{
 ###########################
+
+
+# A-Z {{{
+
 [[keyboard.bindings]]
 action = "ToggleFullscreen"
 key = "F"
@@ -78,6 +78,25 @@ chars = "`p"
 key = "{"
 mods = "Command|Shift"
 
+
+# }}}
+
+# Bottom Row: Comma, Period, Slash {{{
+
+
+# }}}
+
+# Home Row: Semicolon, Quotes, Return {{{
+
+[[keyboard.bindings]]
+chars = "\u001B[13;10u"
+key = "Return"
+mods = "Command|Shift"
+
+# }}}
+
+# Home Row + 1: Brackets, Backslash {{{
+
 # [[keyboard.bindings]]
 # chars = "\u0002p"
 # key = "LBracket"
@@ -88,14 +107,29 @@ mods = "Command|Shift"
 # key = "RBracket"
 # mods = "Command|Shift"
 
+[[keyboard.bindings]]
+chars = "\u001b[124;10u"
+key = "|"
+mods = "Command|Shift"
+
 
 
 # }}}
 
-# OTHER KEYS {{{
-###########################
 
+# }}}
 
+# Other Keys: Escape, Tab, Space {{{
+
+[[keyboard.bindings]]
+chars = "\u001b[27;10u"
+key = "Escape"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[32;10u"
+key = "Space"
+mods = "Command|Shift"
 
 # }}}
 
