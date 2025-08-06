@@ -389,7 +389,9 @@ mods = "Alt"
 
 # }}}
 
-# OTHER KEYS {{{
+
+
+# Other Keys: Escape, Tab, Space {{{
 
 [[keyboard.bindings]]
 chars = "\u001B "
