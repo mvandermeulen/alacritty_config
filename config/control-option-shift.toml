@@ -25,40 +25,75 @@ mods = "Control|Shift|Alt"
 
 # }}}
 
-
-
-
 # }}}
 
-###########################
 # ARROW KEYS {{{
-###########################
 
 
 
 # }}}
 
-###########################
 # REGULAR KEYS {{{
-###########################
 
+
+# A-Z {{{
 
 
 # }}}
 
-###########################
+# Bottom Row: Comma, Period, Slash {{{
+
+
+# }}}
+
+# Home Row: Semicolon, Quotes, Return {{{
+
+[[keyboard.bindings]]
+chars = "\u001b[13;8u"
+key = "Return"
+mods = "Control|Shift|Alt"
+
+# }}}
+
+# Home Row + 1: Brackets, Backslash {{{
+
+[[keyboard.bindings]]
+chars = "\u001b[123;8u"
+key = "{"
+mods = "Control|Shift|Alt"
+
+[[keyboard.bindings]]
+chars = "\u001b[125;8u"
+key = "}"
+mods = "Control|Shift|Alt"
+
+[[keyboard.bindings]]
+chars = "\u001b[124;8u"
+key = "|"
+mods = "Control|Shift|Alt"
+
+# }}}
+
+
+# }}}
+
 # FN KEYS {{{
-###########################
 
 
 
 # }}}
 
-###########################
-# OTHER KEYS {{{
-###########################
+# Other Keys: Escape, Tab, Space {{{
 
+[[keyboard.bindings]]
+chars = "\u001b[27;8u"
+key = "Escape"
+mods = "Control|Shift|Alt"
 
+[[keyboard.bindings]]
+chars = "\u001B[32;8u"
+key = "Space"
+mods = "Control|Shift|Alt"
 
 # }}}
 
