@@ -41,28 +41,67 @@ mods = "Control|Alt"
 # REGULAR KEYS {{{
 ###########################
 
+# A-Z {{{
 
 
 # }}}
 
-###########################
+# Bottom Row: Comma, Period, Slash {{{
+
+
+# }}}
+
+# Home Row: Semicolon, Quotes, Return {{{
+
+[[keyboard.bindings]]
+chars = "\u001b[13;7u"
+key = "Return"
+mods = "Control|Option"
+
+
+# }}}
+
+# Home Row + 1: Brackets, Backslash {{{
+
+[[keyboard.bindings]]
+chars = "\u001b[91;7u"
+key = "LBracket"
+mods = "Control|Alt"
+
+[[keyboard.bindings]]
+chars = "\u001b[93;7u"
+key = "RBracket"
+mods = "Control|Alt"
+
+[[keyboard.bindings]]
+chars = "\u001B[92;7u"
+key = "Backslash"
+mods = "Control|Alt"
+
+# }}}
+
+
+
+# }}}
+
 # FN KEYS {{{
-###########################
 
 
 
 # }}}
 
-###########################
-# OTHER KEYS {{{
-###########################
+
+# Other Keys: Escape, Tab, Space {{{
 
 [[keyboard.bindings]]
 chars = "\u001b[27;7u"
 key = "Escape"
 mods = "Control|Alt"
 
-
+[[keyboard.bindings]]
+chars = "\u001B[32;7u"
+key = "Space"
+mods = "Control|Alt"
 
 # }}}
 
