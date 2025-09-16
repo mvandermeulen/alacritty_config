@@ -23,7 +23,8 @@ mods = "Shift"
 # ARROW KEYS {{{
 ###########################
 [[keyboard.bindings]]
-chars = "\u001B[1;2B"
+# chars = "\u001B[1;2B"
+chars = "\u001B[26;2~"
 key = "Down"
 mods = "Shift"
 
