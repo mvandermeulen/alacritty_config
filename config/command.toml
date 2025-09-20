@@ -22,8 +22,10 @@ chars = "`-"
 key = "Minus"
 mods = "Command"
 
+# Emulate C-S-BS
 [[keyboard.bindings]]
-chars = "\u001b[127;9u"
+# chars = "\u001b[127;9u"
+chars = "\u001b[127;6u"
 key = "Back"
 mods = "Command"
 
@@ -122,8 +124,16 @@ mods = "Command"
 
 # A-Z {{{
 
+# Emulate C-S-A
 [[keyboard.bindings]]
-chars = "`="
+chars = "\u001B[65;5u"
+key = "A"
+mods = "Command"
+
+# Emulate C-S-B
+[[keyboard.bindings]]
+# chars = "`="
+chars = "\u001B[66;5u"
 key = "B"
 mods = "Command"
 
@@ -132,39 +142,98 @@ action = "Copy"
 key = "C"
 mods = "Command"
 
+# Emulate C-S-D
 [[keyboard.bindings]]
 chars = "`d"
+# chars = "\u001B[68;5u"
 key = "D"
 mods = "Command"
 
+# Emulate C-S-E
 [[keyboard.bindings]]
-chars = "`g"
+chars = "\u001B[69;5u"
+key = "E"
+mods = "Command"
+
+# Emulate C-S-F
+[[keyboard.bindings]]
+chars = "\u001B[70;5u"
+key = "F"
+mods = "Command"
+
+# Emulate C-S-G
+[[keyboard.bindings]]
+# chars = "`g"
+chars = "\u001B[71;5u"
 key = "G"
 mods = "Command"
 
-# [[keyboard.bindings]]
-# chars = "`kg"
-# key = "G"
-# mods = "Command"
-
+# Emulate C-S-H
 [[keyboard.bindings]]
-chars = "`l"
+chars = "\u001B[72;5u"
+key = "H"
+mods = "Command"
+
+# Emulate C-S-I
+[[keyboard.bindings]]
+chars = "\u001b[73;5u"
+key = "I"
+mods = "Command"
+
+# Emulate C-S-J
+[[keyboard.bindings]]
+chars = "\u001b[74;5u"
+key = "J"
+mods = "Command"
+
+# Emulate C-S-K
+[[keyboard.bindings]]
+chars = "\u001b[75;5u"
+key = "K"
+mods = "Command"
+
+# Emulate C-S-L
+[[keyboard.bindings]]
+# chars = "`l"
+chars = "\u001b[76;5u"
 key = "L"
 mods = "Command"
 
+# Emulate C-S-M
 [[keyboard.bindings]]
-chars = "`k"
+# chars = "`k"
+chars = "\u001b[77;5u"
 key = "M"
 mods = "Command"
 
+# Emulate C-S-N
 [[keyboard.bindings]]
-chars = "`n"
+# chars = "`n"
+chars = "\u001B[78;5u"
 key = "N"
+mods = "Command"
+
+# Emulate C-S-O
+[[keyboard.bindings]]
+chars = "\u001B[79;5u"
+key = "O"
+mods = "Command"
+
+# Emulate C-S-P
+[[keyboard.bindings]]
+chars = "\u001B[80;5u"
+key = "P"
 mods = "Command"
 
 [[keyboard.bindings]]
 action = "Quit"
 key = "Q"
+mods = "Command"
+
+# Emulate C-S-R
+[[keyboard.bindings]]
+chars = "\u001B[82;5u"
+key = "R"
 mods = "Command"
 
 [[keyboard.bindings]]
@@ -182,18 +251,28 @@ chars = "`C"
 key = "T"
 mods = "Command|Shift"
 
+# Emulate C-S-U
+[[keyboard.bindings]]
+chars = "\u001B[85;5u"
+key = "U"
+mods = "Command"
+
 [[keyboard.bindings]]
 action = "Paste"
 key = "V"
 mods = "Command"
 
+# Emulate C-S-W
 [[keyboard.bindings]]
-chars = "`W"
+# chars = "`W"
+chars = "\u001B[87;5u"
 key = "W"
 mods = "Command"
 
+# Emulate C-S-X
 [[keyboard.bindings]]
-chars = "`-"
+# chars = "`-"
+chars = "\u001B[88;5u"
 key = "X"
 mods = "Command"
 
@@ -202,8 +281,10 @@ chars = "`X"
 key = "X"
 mods = "Command|Shift"
 
+# Emulate C-S-Y
 [[keyboard.bindings]]
-chars = ",tc"
+# chars = ",tc"
+chars = "\u001B[89;5u"
 key = "Y"
 mods = "Command"
 
@@ -222,13 +303,16 @@ mods = "Command"
 
 # Home Row: Semicolon, Quotes, Return {{{
 
+# Switch Pane
 [[keyboard.bindings]]
 chars = "`;"
 key = "Semicolon"
 mods = "Command"
 
+# Emulate C-S-Return
 [[keyboard.bindings]]
-chars = "\u001B[13;9u"
+# chars = "\u001B[13;5u"
+chars = "\u001b[13;6u"
 key = "Return"
 mods = "Command"
 
@@ -249,6 +333,7 @@ chars = "`]"
 key = "RBracket"
 mods = "Command"
 
+# New Vertical Split
 [[keyboard.bindings]]
 chars = "\u001B[92;9u"
 key = "Backslash"
@@ -321,8 +406,32 @@ key = "F12"
 mods = "Command"
 # }}}
 
+
+# Bottom Row: Comma, Period, Slash {{{
+########################
+[[keyboard.bindings]]
+chars = "\u001B[60;5u"
+key = "Comma"
+mods = "Command"
+
+# Relieve Cmd+l
+[[keyboard.bindings]]
+# chars = "\u001B[62;5u"
+chars = "`l"
+key = "Period"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001B[63;5u"
+key = "Slash"
+mods = "Command"
+
+
+# }}}
+
 # Other Keys: Escape, Tab, Space {{{
 
+# Currently: S-F11 to exit Nested Mode
 [[keyboard.bindings]]
 # chars = "\u001b[27;9u"
 chars = "\u001B[23;2~"

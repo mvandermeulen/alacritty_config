@@ -222,12 +222,12 @@ mods = "Control|Shift"
 ########################
 [[keyboard.bindings]]
 chars = "\u001B[60;5u"
-key = "Comma"
+key = "<"
 mods = "Control|Shift"
 
 [[keyboard.bindings]]
 chars = "\u001B[62;5u"
-key = "Period"
+key = ">"
 mods = "Control|Shift"
 
 [[keyboard.bindings]]
