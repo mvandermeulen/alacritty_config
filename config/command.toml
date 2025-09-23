@@ -32,57 +32,75 @@ mods = "Command"
 # }}}
 
 
+# Emulate C-S-1
 [[keyboard.bindings]]
 # chars = "`1"
-chars = "\u001B[27;5;49~"
+# chars = "\u001B[27;5;49~"
+chars = "\u001b[33;5u"
 key = "Key1"
 mods = "Command"
 
+# Emulate C-S-2
 [[keyboard.bindings]]
 # chars = "`2"
-chars = "\u001B[27;5;50~"
+# chars = "\u001B[27;5;50~"
+chars = "\u001b[64;5u"
 key = "Key2"
 mods = "Command"
 
+# Emulate C-S-3
 [[keyboard.bindings]]
 # chars = "`3"
-chars = "\u001B[27;5;51~"
+# chars = "\u001B[27;5;51~"
+chars = "\u001b[35;5u"
 key = "Key3"
 mods = "Command"
 
+# Emulate C-S-4
 [[keyboard.bindings]]
 # chars = "`4"
-chars = "\u001B[27;5;52~"
+# chars = "\u001B[27;5;52~"
+chars = "\u001b[36;5u"
 key = "Key4"
 mods = "Command"
 
+# Emulate C-S-5
 [[keyboard.bindings]]
 # chars = "`5"
-chars = "\u001B[27;5;53~"
+# chars = "\u001B[27;5;53~"
+chars = "\u001b[37;5u"
 key = "Key5"
 mods = "Command"
 
+# Emulate C-S-6
 [[keyboard.bindings]]
 # chars = "`6"
-chars = "\u001B[27;5;54~"
+# chars = "\u001B[27;5;54~"
+chars = "\u001b[64;5u"
 key = "Key6"
 mods = "Command"
 
+# Emulate C-S-7
 [[keyboard.bindings]]
 # chars = "`7"
-chars = "\u001B[27;5;55~"
+# chars = "\u001B[27;5;55~"
+chars = "\u001b[38;5u"
 key = "Key7"
 mods = "Command"
 
+# Emulate C-S-8
 [[keyboard.bindings]]
 # chars = "`8"
-chars = "\u001B[27;5;56~"
+# chars = "\u001B[27;5;56~"
+chars = "\u001b[42;5u"
 key = "Key8"
 mods = "Command"
 
+# Emulate C-S-9
 [[keyboard.bindings]]
 # chars = "`9"
-chars = "\u001B[27;5;57~"
+# chars = "\u001B[27;5;57~"
+chars = "\u001b[40;5u"
 key = "Key9"
 mods = "Command"
 
@@ -390,18 +408,24 @@ chars = "\u001B[20;3~"
 key = "F9"
 mods = "Command"
 
+# Emulate S-F10
 [[keyboard.bindings]]
-chars = "\u001B[21;3~"
+# chars = "\u001B[21;3~"
+chars = "\u001B[21;2~"
 key = "F10"
 mods = "Command"
 
+# Emulate S-F11
 [[keyboard.bindings]]
-chars = "\u001B[23;3~"
+# chars = "\u001B[23;3~"
+chars = "\u001B[23;2~"
 key = "F11"
 mods = "Command"
 
+# Emulate S-F12
 [[keyboard.bindings]]
-chars = "\u001B[24;3~"
+chars = "\u001B[24;2~"
+# chars = "\u001B[24;3~"
 key = "F12"
 mods = "Command"
 # }}}
