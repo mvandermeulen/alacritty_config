@@ -53,6 +53,12 @@ mods = "Command|Shift"
 # key = "g"
 # mods = "Command|Shift"
 
+# Tmux Popup TV Sesh
+[[keyboard.bindings]]
+chars = "`K"
+key = "K"
+mods = "Command|Shift"
+
 [[keyboard.bindings]]
 chars = "`L"
 key = "L"

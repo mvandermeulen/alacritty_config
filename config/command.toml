@@ -183,6 +183,7 @@ mods = "Command"
 [[keyboard.bindings]]
 # chars = "`g"
 chars = "\u001B[71;5u"
+# chars = "\u001B[103;6u"
 key = "G"
 mods = "Command"
 
