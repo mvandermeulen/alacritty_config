@@ -185,6 +185,12 @@ chars = "\u001Bk"
 key = "K"
 mods = "Alt"
 
+# Added 2026-03-28 from jceb
+# [[keyboard.bindings]]
+# chars = "\u001B[107;3u"
+# key = "K"
+# mods = "Alt"
+
 [[keyboard.bindings]]
 chars = "\u001Bl"
 key = "L"
@@ -204,6 +210,12 @@ mods = "Alt"
 chars = "\u001Bo"
 key = "O"
 mods = "Alt"
+
+# Added 2026-03-28 from jceb
+# [[keyboard.bindings]]
+# chars = "\u001B[111;3u"
+# key = "O"
+# mods = "Alt"
 
 [[keyboard.bindings]]
 chars = "\u001Bp"

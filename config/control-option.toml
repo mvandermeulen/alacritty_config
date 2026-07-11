@@ -43,6 +43,143 @@ mods = "Control|Alt"
 
 # A-Z {{{
 
+# Added 2026-03-28 from jceb
+
+[[keyboard.bindings]]
+chars = "\u001B[97;7u"
+key = "A"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[98;7u"
+key = "B"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[99;7u"
+key = "C"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[100;7u"
+key = "D"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[101;7u"
+key = "E"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[102;7u"
+key = "F"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[103;7u"
+key = "G"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[104;7u"
+key = "H"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[105;7u"
+key = "I"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[106;7u"
+key = "J"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[107;7u"
+key = "K"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[108;7u"
+key = "L"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[109;7u"
+key = "M"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[110;7u"
+key = "N"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[111;7u"
+key = "O"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[112;7u"
+key = "P"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[113;7u"
+key = "Q"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[114;7u"
+key = "R"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[115;7u"
+key = "S"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[116;7u"
+key = "T"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[117;7u"
+key = "U"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[118;7u"
+key = "V"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[119;7u"
+key = "W"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[120;7u"
+key = "X"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[121;7u"
+key = "Y"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[122;7u"
+key = "Z"
+mods = "Alt|Control"
+
+
+
+
+
+
 
 # }}}
 
